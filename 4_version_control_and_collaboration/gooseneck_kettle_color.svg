@@ -1,0 +1,14 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+  <symbol id='gooseneck-kettle' x='0' y='0' viewBox='0 0 300 161.3'>
+		<title>Gooseneck Kettle (Color)</title>
+
+    <path fill='none' stroke='#000000' stroke-width='5' stroke-linecap='square'
+      d='M211.46,52.4l16.35-16.35c0,0,8.24-8.4,16.64,0C252.85,44.45,300,91.6,300,91.6'/>
+    <polygon stroke='#000000' stroke-width='5' stroke-linecap='square'
+      points='168.02,36.88 177.77,11.59 133.89,11.59 143.65,36.88 '/>
+    <path fill='none' stroke='#000000' stroke-width='5' stroke-linecap='square'
+      d='M75.9,140.01c0,0-19.32,1.25-26.66-66.59c0,0-5.24-81.47-49.25-72.04'/>
+    <path fill='#BEC2CB' stroke='#000000' stroke-width='5' stroke-linecap='square' stroke-linejoin='round'
+      d='M235.23,161.61c4.48-40.9-11.57-31.15-11.57-31.15c7.53-34.4-6.44-32.13-6.44-32.13,c5.96-31.54-7.73-30.5-7.73-30.5c5.77-28.81-6.02-30.71-6.02-30.71l-95.28,0.31c0,0-11.79,1.89-6.02,30.71c0,0-13.69-1.04-7.73,30.5,c0,0-13.97-2.28-6.44,32.13c0,0-16.05-9.75-11.57,31.15L235.23,161.61z'/>
+	</symbol>
+</svg>

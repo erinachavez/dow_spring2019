@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+  <symbol id='aeropress' x='0' y='0' viewBox='0 0 130 255'>
+		<title>AeroPress (Color)</title>
+
+    <path fill='#333333' fill-opacity='0.75' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      d='M97.46,108.43c7.55-7.55,6.91-19.07,6.91-19.07V0L25.64,0v89.35c0,0-0.65,11.52,6.91,19.07H97.46z'/>
+    <polygon stroke-width='5' stroke-miterlimit='10'
+      points='22.69,129.14 32.54,108.43 97.46,108.43 107.31,129.14 '/>
+    <rect fill='#333333' fill-opacity='0.75' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x='19' y='89.35' width='92' height='142.69'/>
+    <rect stroke-width='5' stroke-miterlimit='10'
+      x='23' y='232.04' width='84.62' height='17.96'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='17' y1='0' x2='113' y2='0'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='0' y1='232.04' x2='130' y2='232.04'/>
+	</symbol>
+</svg>

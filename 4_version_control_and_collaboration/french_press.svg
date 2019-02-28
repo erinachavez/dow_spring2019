@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+  <symbol id='french-press' x='0' y='0' viewBox='0 0 182.72 255'>
+		<title>French Press (B&amp;W)</title>
+
+		<rect stroke-width='5' stroke-miterlimit='10'
+			x='79.44' y='0' width='19.56' height='18.35'/>
+		<path fill='none' stroke-width='5' stroke-miterlimit='10'
+			d='M29.92,217.09c0,0,0.28,15.19,11.51,15.19h95.51c11.23,0,11.51-15.19,11.51-15.19V54.43H0l29.92,36.08V217.09z'/>
+		<path fill='none' stroke-width='5' stroke-miterlimit='10'
+			d='M141.15,42.41c0,0-0.58-24.05-21.86-24.05H59.16c-21.29,0-21.86,24.05-21.86,24.05H141.15z'/>
+		<polygon stroke-width='5' stroke-miterlimit='10'
+			points='29.96,54.21 29.96,42.41 148.49,42.41 148.49,54.43 '/>
+		<rect stroke-width='5' stroke-miterlimit='10'
+			x='29.96' y='232.04' width='118.53' height='17.96'/>
+		<path stroke-width='5' stroke-miterlimit='10'
+			d='M148.49,77.22h25.01c0,0,9.21,1.88,9.21,13.29s0,89.24,0,89.24s0.72,13.29-9.21,13.29s-25.01,0-25.01,0v-15.82,h20.99V90.51h-20.99V77.22z'/>
+		<line fill='none' stroke-width='5' stroke-miterlimit='10'
+			x1='46.93' y1='210.76' x2='131.51' y2='210.76'/>
+		<line fill='none' stroke-width='5' stroke-miterlimit='10'
+			x1='89.22' y1='210.76' x2='89.22' y2='54.43'/>
+	</symbol>
+</svg>
