@@ -7,4 +7,4 @@ by [Erina Chavez](https://erinachavez.github.io/index.html)
 - [Assignment 2: Scalable Vector Graphics](2_svg)
   - February 19th, 2019
 - [Assignment 3: CSS Animation](3_css_animation)
-  - February 26th, 2019
+  - February 28th, 2019
