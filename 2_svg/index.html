@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment #2: Scalable Vector Graphics</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lekton:400,700" rel="stylesheet">
+
+    <style>
+      body {margin: 0; padding: 25px; background-color: #593c1f; color: #fff;}
+
+      h1,h2,h3,p {margin: 0; font-weight: 400;}
+      h1,h2 {text-align: center;}
+      h1 {text-transform: uppercase;}
+      h2,h3,p {font-family: 'Lekton', Georgia, Times, serif;}
+
+      h1 {font-size: 38px; margin-bottom: 5px; font-family: 'Vast Shadow', Georgia, Times, serif;}
+      h2 {font-size: 20px;}
+      h3 {font-size: 18px; margin-bottom: 5px; font-weight: 700;}
+       p {font-size: 16px;}
+
+     p a {text-decoration: none; color: #fff;}
+
+      .container {display: flex; justify-content: center; margin-top: 35px;}
+        .container div .coffee-icons,.coffee-icons-color {width: 125px; height: 125px; margin: 0 50px;}
+        .container div .coffee-icons {fill: #fff; stroke: #fff;}
+        .container div p {text-align: center; margin-top: 15px;}
+    </style>
+  </head>
+
+  <body>
+    <h3>Assignment #2: Scalable Vector Graphics</h3>
+    <p>February 19th, 2019</p>
+
+    <h1>Making Coffee</h1>
+    <h2>Hover for color icons!</h2>
+
+    <div class='container'>
+      <div>
+        <svg id='moka-pot' class='coffee-icons'>
+          <use xlink:href='coffee-icons.svg#moka-pot' />
+        </svg>
+        <p>Moka Pot</p>
+      </div>
+
+      <div>
+        <svg id='chemex' class='coffee-icons'>
+          <use xlink:href='coffee-icons.svg#chemex' />
+        </svg>
+        <p>Chemex</p>
+      </div>
+
+      <div>
+        <svg id='aeropress' class='coffee-icons'>
+          <use xlink:href='coffee-icons.svg#aeropress' />
+        </svg>
+        <p>AeroPress</p>
+      </div>
+
+      <div>
+        <svg id='french-press' class='coffee-icons'>
+          <use xlink:href='coffee-icons.svg#french-press' />
+        </svg>
+        <p>French Press</p>
+      </div>
+
+      <div>
+        <svg id='gooseneck-kettle' class='coffee-icons'>
+          <use xlink:href='coffee-icons.svg#gooseneck-kettle' />
+        </svg>
+        <p>Gooseneck Kettle</p>
+      </div>
+    </div>
+
+    <p><a href="../index.html">&larr; BACK</a></p>
+
+    <script>
+      $(document).ready(function(){
+        $('.coffee-icons').on({
+          mouseenter: function() {
+            var thisId = $(this).attr('id');
+            $(this).children('use').attr('xlink:href','coffee-icons-color.svg#' + thisId);
+            $(this).removeClass('coffee-icons');
+            $(this).addClass('coffee-icons-color');
+          },
+          mouseleave: function() {
+            var thisId = $(this).attr('id');
+            $(this).children('use').attr('xlink:href','coffee-icons.svg#' + thisId);
+            $(this).removeClass('coffee-icons-color');
+            $(this).addClass('coffee-icons');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

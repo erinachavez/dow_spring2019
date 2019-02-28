@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment #1: HTML and CSS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+      body{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        background-color: #000;
+        background-image: url("assets/grid.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+        #stars {
+          width: 100vw;
+          height: 100vh;
+          background-image: url("assets/stars.gif");
+        }
+        p {
+          color: #fff;
+        }
+        .icon {
+          width: 250px;
+          position: absolute;
+          transition: ease-in-out 1s;
+        }
+          .icon:hover{
+            cursor: crosshair;
+          }
+    </style>
+  </head>
+
+  <body>
+    <div id="stars">
+      <img class="icon" src="assets/animated_icon.gif" onmouseover="moveIcon(this)">
+      <img class="icon" src="assets/animated_icon_2.gif" onmouseover="moveIcon(this)">
+    </div>
+
+    <audio autoplay loop>
+      <source src="assets/BrianEno_TheBigShip.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+      $(document).ready(function(){
+        var winWidth = $(window).width();
+        var winHeight = $(window).height();
+
+        $('.icon').each(function(i, obj) {
+          var ranTop = Math.floor(Math.random() * (winHeight-250));
+          var ranLeft = Math.floor(Math.random() * (winWidth-250));
+
+          $(obj).css("top",ranTop);
+          $(obj).css("left",ranLeft);
+
+        });
+      });
+
+      function moveIcon(thisIcon) {
+        var winWidth = $(window).width();
+        var winHeight = $(window).height();
+
+        var ranTop = Math.floor(Math.random() * (winHeight-250));
+        var ranLeft = Math.floor(Math.random() * (winWidth-250));
+
+        $(thisIcon).css("top",ranTop);
+        $(thisIcon).css("left",ranLeft);
+      }
+    </script>
+  </body>
+</html>
