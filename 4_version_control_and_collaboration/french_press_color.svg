@@ -1,22 +1,25 @@
 <svg xmlns='http://www.w3.org/2000/svg'>
-  <symbol id='french-press' x='0' y='0' viewBox='0 0 182.72 255'>
-		<title>French Press (Color)</title>
+	<title>French Press (Color)</title>
 
-    <rect stroke-width='5' stroke-miterlimit='10'
-      x='79.38' y='0' width='19.56' height='18.35'/>
-    <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
-      d='M29.86,217.09c0,0,0.28,15.19,11.51,15.19h95.51c11.23,0,11.51-15.19,11.51-15.19V54.43H-0.06l29.92,36.08,V217.09z'/>
-    <path fill='#BEC2CB' stroke='#BEC2CB' stroke-width='5' stroke-miterlimit='10'
-      d='M141.09,42.41c0,0-0.58-24.05-21.86-24.05H59.1c-21.29,0-21.86,24.05-21.86,24.05H141.09z'/>
-    <polygon stroke-width='5' stroke-miterlimit='10'
-      points='29.9,54.21 29.9,42.41 148.43,42.41 148.43,54.43 '/>
-    <rect stroke-width='5' stroke-miterlimit='10'
-      x='29.9' y='232.04' width='118.53' height='17.96'/>
-    <path stroke-width='5' stroke-miterlimit='10'
-      d='M148.43,77.22h25.01c0,0,9.21,1.88,9.21,13.29s0,89.24,0,89.24s0.72,13.29-9.21,13.29c-9.93,0-25.01,0-25.01,0,v-15.82h20.99V90.51h-20.99V77.22z'/>
-    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
-      x1='46.87' y1='210.76' x2='131.45' y2='210.76'/>
-    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
-      x1='89.16' y1='210.76' x2='89.16' y2='54.43'/>
-	</symbol>
+  <defs>
+    <style>
+      rect,path,polygon,line {
+        stroke-width: 5;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+
+  <rect x='79.38' y='0' width='19.56' height='18.35'/>
+  <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000'
+    d='M29.86,217.09c0,0,0.28,15.19,11.51,15.19h95.51c11.23,0,11.51-15.19,11.51-15.19V54.43H-0.06l29.92,36.08,V217.09z'/>
+  <path fill='#BEC2CB' stroke='#BEC2CB'
+    d='M141.09,42.41c0,0-0.58-24.05-21.86-24.05H59.1c-21.29,0-21.86,24.05-21.86,24.05H141.09z'/>
+  <polygon points='29.9,54.21 29.9,42.41 148.43,42.41 148.43,54.43 '/>
+  <rect x='29.9' y='232.04' width='118.53' height='17.96'/>
+  <path d='M148.43,77.22h25.01c0,0,9.21,1.88,9.21,13.29s0,89.24,0,89.24s0.72,13.29-9.21,13.29c-9.93,0-25.01,0-25.01,0,v-15.82h20.99V90.51h-20.99V77.22z'/>
+  <line fill='none' stroke='#000000'
+    x1='46.87' y1='210.76' x2='131.45' y2='210.76'/>
+  <line fill='none' stroke='#000000'
+    x1='89.16' y1='210.76' x2='89.16' y2='54.43'/>
 </svg>

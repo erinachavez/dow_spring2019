@@ -1,22 +1,28 @@
 <svg xmlns='http://www.w3.org/2000/svg'>
-  <symbol id='chemex' x='0' y='0' viewBox='0 0 142.15 255'>
-		<title>Chemex (Color)</title>
+	<title>Chemex (Color)</title>
+  <defs>
+    <style>
+      path,polygon,polyline,line {
+        stroke-width: 5;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
 
-    <path fill='#342411' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
-      d='M114.97,250c38.23,0,22.98-40.01,22.98-40.01H5.11c0,0-15.02,40.01,22.98,40.01S114.97,250,114.97,250z'/>
-    <polygon fill='#CAA472' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
-      points='138.02,0 130.54,16.92 71.22,8.93 '/>
-    <polyline fill='none' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
-      points='30.5,58.26 4.91,0 130.54,16.92 111.66,58.26 '/>
-    <polygon fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
-      points='0,26.13 142.15,26.13 115.77,73.8 25.96,73.8 '/>
-    <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
-      d='M114.97,250c38.01,0,22.98-40.01,22.98-40.01l-22.98-60.44H28.09L5.11,209.99c0,0-15.02,40.01,22.98,40.01,H114.97z'/>
-    <path fill='#CAA472' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
-      d='M125.13,149.55c-23.15-23.15,0-75.76,0-75.76H16.6c0,0,23.15,52.61,0,75.76H125.13z'/>
-    <line fill='none' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
-      x1='16.6' y1='107.85' x2='125.13' y2='117.21'/>
-    <polyline fill='none' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
-      points='77.89,172.54 89.35,114.12 102.15,168.28 '/>
-	</symbol>
+  <path fill='#342411' stroke='#342411'
+    d='M114.97,250c38.23,0,22.98-40.01,22.98-40.01H5.11c0,0-15.02,40.01,22.98,40.01S114.97,250,114.97,250z'/>
+  <polygon fill='#CAA472' stroke='#CAA472'
+    points='138.02,0 130.54,16.92 71.22,8.93 '/>
+  <polyline fill='none' stroke='#CAA472'
+    points='30.5,58.26 4.91,0 130.54,16.92 111.66,58.26 '/>
+  <polygon fill='#A8CCD7' fill-opacity='0.6' stroke='#000000'
+    points='0,26.13 142.15,26.13 115.77,73.8 25.96,73.8 '/>
+  <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000'
+    d='M114.97,250c38.01,0,22.98-40.01,22.98-40.01l-22.98-60.44H28.09L5.11,209.99c0,0-15.02,40.01,22.98,40.01,H114.97z'/>
+  <path fill='#CAA472' stroke='#CAA472'
+    d='M125.13,149.55c-23.15-23.15,0-75.76,0-75.76H16.6c0,0,23.15,52.61,0,75.76H125.13z'/>
+  <line fill='none' stroke='#342411'
+    x1='16.6' y1='107.85' x2='125.13' y2='117.21'/>
+  <polyline fill='none' stroke='#342411'
+    points='77.89,172.54 89.35,114.12 102.15,168.28 '/>
 </svg>
