@@ -1,0 +1,100 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+  <symbol id='moka-pot' x='0' y='0' viewBox='0 0 220.31 255'>
+		<title>Moka Pot (Color)</title>
+
+    <polygon fill='#BEC2CB' stroke='#000' stroke-width='5' stroke-miterlimit='10'
+      points='0,42.19 54.69,132.81 146.09,132.81 171.09,41.41 100,16.41 33.59,42.19 '/>
+    <polygon fill='#BEC2CB' stroke='#000' stroke-width='5' stroke-miterlimit='10'
+      points='53.12,147.66 148.44,147.66 172.66,250 28.91,250 '/>
+    <polygon stroke='#000' stroke-width='5' stroke-miterlimit='10'
+      points='100,16.41 110.16,19.98 110.16,0 89.84,0 89.84,20.4 '/>
+    <rect stroke='#000' stroke-width='5' stroke-miterlimit='10'
+      x='64.84' y='132.81' width='73.44' height='14.84'/>
+    <path stroke='#000' stroke-width='5' stroke-miterlimit='10'
+      d='M171.09,40.41h32.03c0,0,17.19,2.26,17.19,18.75V99c0,43.75-43.39,36.78-49.22,36.06s-19.9-18.87,6.25-18.87,s25-21.88,25-21.88s0-12.46,0-25s-10.16-10.94-10.16-10.94h-26L171.09,40.41'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='138.28' y1='41.41' x2='125.78' y2='132.81'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='64.84' y1='41.41' x2='77.34' y2='132.81'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='77.34' y1='147.66' x2='64.84' y2='250'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='125.78' y1='147.66' x2='138.28' y2='250'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='33.59' y1='42.19' x2='171.09' y2='41.41'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='54.69' y1='132.81' x2='33.59' y2='42.19'/>
+	</symbol>
+
+  <symbol id='chemex' x='0' y='0' viewBox='0 0 142.15 255'>
+		<title>Chemex (Color)</title>
+
+    <path fill='#342411' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
+      d='M114.97,250c38.23,0,22.98-40.01,22.98-40.01H5.11c0,0-15.02,40.01,22.98,40.01S114.97,250,114.97,250z'/>
+    <polygon fill='#CAA472' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
+      points='138.02,0 130.54,16.92 71.22,8.93 '/>
+    <polyline fill='none' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
+      points='30.5,58.26 4.91,0 130.54,16.92 111.66,58.26 '/>
+    <polygon fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      points='0,26.13 142.15,26.13 115.77,73.8 25.96,73.8 '/>
+    <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      d='M114.97,250c38.01,0,22.98-40.01,22.98-40.01l-22.98-60.44H28.09L5.11,209.99c0,0-15.02,40.01,22.98,40.01,H114.97z'/>
+    <path fill='#CAA472' stroke='#CAA472' stroke-width='5' stroke-miterlimit='10'
+      d='M125.13,149.55c-23.15-23.15,0-75.76,0-75.76H16.6c0,0,23.15,52.61,0,75.76H125.13z'/>
+    <line fill='none' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
+      x1='16.6' y1='107.85' x2='125.13' y2='117.21'/>
+    <polyline fill='none' stroke='#342411' stroke-width='5' stroke-miterlimit='10'
+      points='77.89,172.54 89.35,114.12 102.15,168.28 '/>
+	</symbol>
+
+  <symbol id='aeropress' x='0' y='0' viewBox='0 0 130 255'>
+		<title>AeroPress (Color)</title>
+
+    <path fill='#333333' fill-opacity='0.75' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      d='M97.46,108.43c7.55-7.55,6.91-19.07,6.91-19.07V0L25.64,0v89.35c0,0-0.65,11.52,6.91,19.07H97.46z'/>
+    <polygon stroke-width='5' stroke-miterlimit='10'
+      points='22.69,129.14 32.54,108.43 97.46,108.43 107.31,129.14 '/>
+    <rect fill='#333333' fill-opacity='0.75' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x='19' y='89.35' width='92' height='142.69'/>
+    <rect stroke-width='5' stroke-miterlimit='10'
+      x='23' y='232.04' width='84.62' height='17.96'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='17' y1='0' x2='113' y2='0'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='0' y1='232.04' x2='130' y2='232.04'/>
+	</symbol>
+
+  <symbol id='french-press' x='0' y='0' viewBox='0 0 182.72 255'>
+		<title>French Press (Color)</title>
+
+    <rect stroke-width='5' stroke-miterlimit='10'
+      x='79.38' y='0' width='19.56' height='18.35'/>
+    <path fill='#A8CCD7' fill-opacity='0.6' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      d='M29.86,217.09c0,0,0.28,15.19,11.51,15.19h95.51c11.23,0,11.51-15.19,11.51-15.19V54.43H-0.06l29.92,36.08,V217.09z'/>
+    <path fill='#BEC2CB' stroke='#BEC2CB' stroke-width='5' stroke-miterlimit='10'
+      d='M141.09,42.41c0,0-0.58-24.05-21.86-24.05H59.1c-21.29,0-21.86,24.05-21.86,24.05H141.09z'/>
+    <polygon stroke-width='5' stroke-miterlimit='10'
+      points='29.9,54.21 29.9,42.41 148.43,42.41 148.43,54.43 '/>
+    <rect stroke-width='5' stroke-miterlimit='10'
+      x='29.9' y='232.04' width='118.53' height='17.96'/>
+    <path stroke-width='5' stroke-miterlimit='10'
+      d='M148.43,77.22h25.01c0,0,9.21,1.88,9.21,13.29s0,89.24,0,89.24s0.72,13.29-9.21,13.29c-9.93,0-25.01,0-25.01,0,v-15.82h20.99V90.51h-20.99V77.22z'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='46.87' y1='210.76' x2='131.45' y2='210.76'/>
+    <line fill='none' stroke='#000000' stroke-width='5' stroke-miterlimit='10'
+      x1='89.16' y1='210.76' x2='89.16' y2='54.43'/>
+	</symbol>
+
+  <symbol id='gooseneck-kettle' x='0' y='0' viewBox='0 0 300 161.3'>
+		<title>Gooseneck Kettle (Color)</title>
+
+    <path fill='none' stroke='#000000' stroke-width='5' stroke-linecap='square'
+      d='M211.46,52.4l16.35-16.35c0,0,8.24-8.4,16.64,0C252.85,44.45,300,91.6,300,91.6'/>
+    <polygon stroke='#000000' stroke-width='5' stroke-linecap='square'
+      points='168.02,36.88 177.77,11.59 133.89,11.59 143.65,36.88 '/>
+    <path fill='none' stroke='#000000' stroke-width='5' stroke-linecap='square'
+      d='M75.9,140.01c0,0-19.32,1.25-26.66-66.59c0,0-5.24-81.47-49.25-72.04'/>
+    <path fill='#BEC2CB' stroke='#000000' stroke-width='5' stroke-linecap='square' stroke-linejoin='round'
+      d='M235.23,161.61c4.48-40.9-11.57-31.15-11.57-31.15c7.53-34.4-6.44-32.13-6.44-32.13,c5.96-31.54-7.73-30.5-7.73-30.5c5.77-28.81-6.02-30.71-6.02-30.71l-95.28,0.31c0,0-11.79,1.89-6.02,30.71c0,0-13.69-1.04-7.73,30.5,c0,0-13.97-2.28-6.44,32.13c0,0-16.05-9.75-11.57,31.15L235.23,161.61z'/>
+	</symbol>
+</svg>
