@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.flip-book {
+  position: relative;
+  width: 275px;
+  height: 300px;
+}
+
+  .flip-book img {
+    position: absolute;
+    display: none;
+  }
+
+  .flip-book img:first-child {
+    display: block;
+  }
