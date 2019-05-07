@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Normal Day in London</title>
+
+    <style>
+      @font-face{font-family: "Johnston"; src: url('johnston.ttf');}
+
+      body{margin: 0; padding: 25px; font-family: "Johnston";}
+        p{margin: 0; font-size: 16px;}
+
+        .station{position: absolute; background-color: white;}
+          span{display: block; padding: 2.5px 5px;}
+
+        .legend{margin: 0 5px 5px 15px;}
+          svg{display: block; margin: 25px auto 0 auto;}
+            polygon{fill: none; stroke-width: 3;}
+            ellipse{fill: white; stroke: black; stroke-width: 2;}
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body id="a_normal_day_in_london">
+    <div id="content"></div>
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      a_normal_day_in_london();
+    </script>
+  </body>
+</html>

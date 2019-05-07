@@ -1,0 +1,92 @@
+/* general */
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+}
+
+p, ul {
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* index.html */
+#nav_page {font-family: "Courier New", Courier, monospace;}
+  #nav_page .site_title {width: 45%; position: absolute; top: 25%; left: 10%;}
+  #nav_page nav {position: absolute; top: 55%; left: 60%;}
+  #nav_page .geos {position: absolute; width: 100vw; height: 100vh; display: none;}
+
+/* chain_abstractions.html */
+#chain_abstractions #poem {position: absolute; top: 25%; left: 55%; font-family: "Hevetica Neue", sans-serif; font-size: 22px; color: #fff;}
+  #chain_abstractions #poem p {opacity: 0; transition: opacity 0.8s; margin: 0 0 10px 0;}
+
+/* synesthesia_sentences.html */
+#synesthesia_sentences {margin: 0; display: flex; align-items: center; justify-content: center;}
+#synesthesia_sentences #synthesize{width: 100vw; height: 100vh;}
+#synesthesia_sentences #content{position: absolute;}
+  #synesthesia_sentences #content #polarity{display: none;}
+  #synesthesia_sentences #content #subjectivity{display: none;}
+
+  #synesthesia_sentences #content #sentence{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 15px;
+    display: block;
+  }
+
+  #synesthesia_sentences #synthesize polygon{
+    stroke-width: 5px;
+    fill: none;
+    animation: draw 3s alternate infinite;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+/* a_normal_day_in_london.html */
+#a_normal_day_in_london #content svg ellipse{
+  animation: draw 2s forwards;
+  stroke-dasharray: 31;
+  stroke-dashoffset: 31;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#a_normal_day_in_london #content #poem{
+  background-color: rgba(255,255,255,.75);
+  border: 2px solid #000;
+  top: 30%;
+  left: 25%;
+  position: absolute;
+  padding: 15px;
+  width: 450px;
+}
+
+#a_normal_day_in_london #poem #close {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  margin: 0 0 0 200px;
+}
+
+#a_normal_day_in_london #poem #close:hover{cursor: pointer;}
