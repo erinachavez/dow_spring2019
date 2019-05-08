@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Assignment #7: Web GL</title>
-
-    <style>
-      canvas{border: 1px solid #000;}
-    </style>
+    <title>Assignment #7: WebGL</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
-    <div id="container"></div>
+    <div id="controls">
+      <label for="density">Density: </label><input id="density" type="number" step="1" value="50" /><br />
+      <br />
+      <label for="density">Height: </label><input id="z_height" type="number" step="1" value="10" /><br />
+      <br />
+      <input id="pause" type="button" value="Pause" />
+    </div>
 
-    <script src="three.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/perlin.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
