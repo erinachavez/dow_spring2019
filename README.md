@@ -20,3 +20,9 @@ by [Erina Chavez](https://erinachavez.github.io/index.html)
 - Assignment 6: HTML Canvas
   - April 16th, 2019
   - [Code](6_html_canvas) | [Live](http://i6.cims.nyu.edu/~ec2937/380/6_html_canvas/index.html)
+- Assignment 7: WebGL
+  - April 30th, 2019
+  - [Code](7_web_gl) | [Live](http://i6.cims.nyu.edu/~ec2937/380/7_webgl/index.html)
+- Final: Drawing on the Web
+  - May 7th, 2019
+  - [Code](8_final_project) | [Live](http://i6.cims.nyu.edu/~ec2937/380/8_final_project/final/index.html)
